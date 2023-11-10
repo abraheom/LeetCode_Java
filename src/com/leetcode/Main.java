@@ -1,18 +1,20 @@
 package com.leetcode;
 
-import com.leetcode.problems.P657_RobotReturnToOrigin;
+import com.leetcode.problems.P1759;
+import com.leetcode.problems.P214;
 import com.leetcode.utils.ProblemRunnerManager;
 
 public class Main {
+
 	public static void main(String[] args) {
-		
 		// Iniciar el manejador de problemas
-		ProblemRunnerManager problemRunnerManager = new ProblemRunnerManager();
-		
+		ProblemRunnerManager pm = new ProblemRunnerManager();
+
 		// Agregar problemas al manejador
-		problemRunnerManager.addProblem(new P657_RobotReturnToOrigin().setInfo(657,"Prueba"));
+		pm.addProblem(new P214().setInfo(214, "Shortest Palindrome")); // TODO Optimizar
+		pm.addProblem(new P1759().setInfo(1759, "Count Number of Homogenous Substrings")); // TODO Optimizar
 		
 		// Ejecutar problemas
-		problemRunnerManager.run(-1);
+		pm.runLastProblem();
 	}
 }

@@ -16,11 +16,12 @@ public class ProblemRunnerManager {
 		this.problems.add(problem);
 	}
 
-	public void run(int idProblem) {
-		if (idProblem == -1) {
-			//problems.runTest();
-		}
-		Problem problemToRun = this.problems.get(this.problems.size()-1);
+	public void runLastProblem() {
+		this.ejecutarProblema(this.problems.size()-1);
+	}
+	
+	private void ejecutarProblema(int idProblem) {
+		Problem problemToRun = this.problems.get(idProblem);
 		problemToRun.showProblemInfo();
 		problemToRun.runTest();
 	}
