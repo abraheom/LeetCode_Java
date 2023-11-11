@@ -19,7 +19,7 @@ public abstract class Problem {
 	}
 
 	public void showProblemInfo() {
-		System.out.println("Ejecutando problema: " + this.id + "->" + this.name);
+		System.out.println("Ejecutando problema: " + this.id + " -> " + this.name);
 	}
 
 	// Metodos abstractos
