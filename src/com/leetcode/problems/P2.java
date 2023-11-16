@@ -2,7 +2,7 @@ package com.leetcode.problems;
 
 import java.math.BigInteger;
 
-import com.leetcode.model.Problem;
+import com.leetcode.model.Problema;
 
 class ListNode {
 	int val;
@@ -21,7 +21,7 @@ class ListNode {
 	}
 }
 
-public class P2 extends Problem {
+public class P2 extends Problema {
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		String n1 = getStringNumbers(l1);
 		String n2 = getStringNumbers(l2);

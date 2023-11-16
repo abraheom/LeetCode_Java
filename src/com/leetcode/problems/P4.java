@@ -2,9 +2,9 @@ package com.leetcode.problems;
 
 import java.util.Arrays;
 
-import com.leetcode.model.Problem;
+import com.leetcode.model.Problema;
 
-public class P4 extends Problem {
+public class P4 extends Problema {
 
 	public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 		int[] union = unirArreglos(nums1, nums2);
