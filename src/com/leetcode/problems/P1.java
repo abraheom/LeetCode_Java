@@ -2,9 +2,9 @@ package com.leetcode.problems;
 
 import java.util.Arrays;
 
-import com.leetcode.model.Problem;
+import com.leetcode.model.Problema;
 
-public class P1 extends Problem {
+public class P1 extends Problema {
 
 	public int[] twoSum(int[] nums, int target) {
 		int[] resp = new int[0];

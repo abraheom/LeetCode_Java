@@ -1,8 +1,8 @@
 package com.leetcode.problems;
 
-import com.leetcode.model.Problem;
+import com.leetcode.model.Problema;
 
-public class P3 extends Problem {
+public class P3 extends Problema {
 
 	public int lengthOfLongestSubstring(String s) {
 		char[] letras = s.toCharArray();
