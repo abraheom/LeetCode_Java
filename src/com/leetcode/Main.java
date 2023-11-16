@@ -6,10 +6,7 @@ import com.leetcode.problems.P2;
 import com.leetcode.problems.P214;
 import com.leetcode.problems.P3;
 import com.leetcode.problems.P4;
-<<<<<<< HEAD
 import com.leetcode.problems.P5;
-=======
->>>>>>> branch 'main' of git@github.com:abraheom/LeetCode_Java.git
 import com.leetcode.problems.P6;
 import com.leetcode.problems.P8;
 import com.leetcode.utils.ProblemasManager;
